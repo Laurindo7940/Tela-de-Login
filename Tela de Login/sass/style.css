@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: -webkit-gradient(linear, left top, right top, from(black), to(#181818));
+  background-image: linear-gradient(to right, black, #181818);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 60%;
+  width: 28%;
+  background-color: #181818;
+  border-radius: 15px;
+  color: white;
+}
+
+.container .form h1 {
+  color: #ff0040;
+  margin-bottom: 10px;
+}
+
+.container .form .form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.container .form .form-group .inpt {
+  width: 90%;
+  height: 30px;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+}
+
+.container .form .form-group .inpt:focus {
+  background-color: darkgrey;
+}
+
+.container .form .btn {
+  margin-top: 15px;
+  background-color: #ff0040;
+  color: #181818;
+  border: none;
+  width: 80px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 17px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.container .form .btn:hover {
+  font-size: 20px;
+  -webkit-transition: 2s;
+  transition: 2s;
+}
+
+.container .form span {
+  font-size: 13px;
+  padding: 5px;
+}
+
+.container .form span a {
+  color: #ff0040;
+}
+
+.container footer {
+  font-size: 14px;
+  margin-top: 25px;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

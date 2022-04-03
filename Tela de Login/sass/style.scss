@@ -1,0 +1,85 @@
+@import "./colors/colors";
+
+@import "./reset/reset";
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(to right, black, #181818);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 60%;
+    width: 28%;
+    background-color: #181818;
+    border-radius: 15px;
+
+    color: white;
+
+    h1 {
+      color: $btn-color;
+      margin-bottom: 10px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 15px;
+      margin-bottom: 10px;
+
+      .inpt {
+        width: 90%;
+        height: 30px;
+        padding: 5px;
+
+        border-radius: 10px;
+        border: none;
+
+        &:focus {
+          background-color: darkgrey;
+        }
+      }
+    }
+
+    .btn {
+      margin-top: 15px;
+      background-color: $btn-color;
+      color: #181818;
+      border: none;
+      width: 80px;
+      height: 40px;
+      border-radius: 10px;
+      font-size: 17px;
+      padding: 5px;
+      cursor: pointer;
+
+      &:hover {
+        font-size: 20px;
+        transition: 2s;
+      }
+    }
+
+    span {
+      font-size: 13px;
+      padding: 5px;
+
+      a{
+        color: $btn-color;
+      }
+    }
+  }
+
+  footer {
+    font-size: 14px;
+    margin-top: 25px;
+    color: white;
+  }
+}
